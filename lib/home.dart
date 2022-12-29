@@ -1,11 +1,9 @@
 import 'dart:ui';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'extraweather.dart';
 
 String City = "NEW ZEALAND";
-
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
@@ -52,9 +50,7 @@ class _HomePageState extends State<HomePage> {
 
                            child: Text("ok"))
                          ],
-
                       );
-                          
                     }
                     );
                 }
@@ -67,7 +63,6 @@ class _HomePageState extends State<HomePage> {
                   onTap: (){
                     searchBar=true;
                     setState(() {
-                      
                     });
                     focusNode.requestFocus();
                   },
@@ -93,9 +88,7 @@ class _HomePageState extends State<HomePage> {
                      
                      child: Center(
                       child: Column(
-                      
                         children: [
-                          
                           Text(
 
                             "9",
@@ -106,17 +99,14 @@ class _HomePageState extends State<HomePage> {
                                 fontWeight: FontWeight.bold,
                             ),
                             ),
-
                       ],),
                      ),
-                   )
+                   ),
               ],
              ),
-
             ),
             SizedBox(height: 20,),
             ExtraWeather(),
-
       ]
       ),
     );

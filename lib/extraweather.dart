@@ -14,7 +14,6 @@ class ExtraWeather extends StatelessWidget {
            children: [
              Column(
                children: [
-                
              Text(
               "78" + " %",
               style: TextStyle(fontWeight: FontWeight.w700,fontSize: 16),
@@ -24,9 +23,7 @@ class ExtraWeather extends StatelessWidget {
              style: TextStyle(
               color: Colors.black54,
               fontSize: 16,
-
              ),
-             
              )
                ],
              ),
